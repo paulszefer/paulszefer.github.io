@@ -1,0 +1,40 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #006fbf;
+}
+
+a:hover, a:active {
+    color: #004eae;
+}
+
+label {
+    cursor: pointer;
+}
+
+pre {
+    padding: 0 2%;
+}
+
+.button, .button:link, .button:visited, .button:hover, .button:active {
+    display: inline-block;
+
+    margin-top: 2vh;
+
+    background-color: dodgerblue;
+    color: white;
+}
+
+.button:hover {
+    background-color: #0e80ff
+}
+
+.button_small {
+    border: solid 1px dimgray;
+    border-radius: 10%;
+
+    padding: 1% 2%;
+}
